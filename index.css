@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(202, 202, 195);
+}
+
+h2 {
+    /* text-align: center; */
+    /* left: -2000px; */
+    margin-left: 700px;
+
+}
+
+#portrait {
+    /* margin: 30px; */
+    /* position: absolute; */
+    height: 250px;
+    width: 250px;
+    margin-top: 70px;
+    margin-left: -190;
+    border: 2px solid;
+
+}
+
+#home {
+    display: grid;
+    position: relative;
+    top: -5;
+    background-color: rgb(194, 194, 173);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    vertical-align: middle;
+    margin: 8px;
+    float: left;
+}
+
+#about {
+    display: grid;
+    position: relative;
+    top: -5;
+    background-color: rgb(194, 194, 173);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    vertical-align: middle;
+    margin: 8px;
+    float: left;
+}
+
+#portfolio {
+    display: grid;
+    position: relative;
+    top: -5;
+    background-color: rgb(194, 194, 173);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    vertical-align: middle;
+    margin: 8px;
+    float: left;
+}
+
+#p1 {
+    display: block;
+    background-color: rgb(218, 205, 175);
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid;
+    position: relative;
+    margin: 250px;
+    left: 400px;
+    /* text-align: center; */
+    top: -480px;
+    width: 500px;
+
+}
+
+#p2 {
+    display: block;
+    background-color: rgb(214, 209, 197);
+    font-style: oblique;
+    font-weight: bold;
+    border: 2px solid;
+    position: relative;
+    margin: 250px;
+    left: 400px;
+    /* text-align: center; */
+    top: -650px;
+    width: 500px;
+}
+
+#story {
+    display: block;
+    background-color: rgb(210, 186, 127);
+    font-style: oblique font-weight: bold;
+    border: 2px solid;
+    position: relative;
+    margin: 250px;
+    left: -180px;
+    /* text-align: center; */
+    top: -159px;
+    width: 1500px;
+}
+
+#About_Me {
+    display: block;
+    background-color: rgb(210, 186, 127);
+    font-style: oblique font-weight: bold;
+    font: size 20px;
+    border: 2px solid;
+    position: relative;
+    margin: 250px;
+    left: 150px;
+    /* text-align: center; */
+    top: -459px;
+    width: 800px;
+}
+
+#tractor {
+    /* margin: 30px; */
+    height: 250px;
+    width: 250px;
+    margin-top: 70px;
+    margin-left: -163;
+
+}
+
+#TopAbout {
+    position: relative;
+    top: -338
+}
+
+
+#linkedin {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 75px;
+    left: -180px;
+}
+
+#google {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 75px;
+    left: -180px;
+}
