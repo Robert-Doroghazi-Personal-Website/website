@@ -3,57 +3,47 @@ body {
 }
 
 h2 {
-    /* text-align: center; */
-    /* left: -2000px; */
     margin-left: 700px;
-
 }
 
 #portrait {
-    /* margin: 30px; */
-    /* position: absolute; */
     height: 250px;
     width: 250px;
     margin-top: 70px;
-    margin-left: -190;
+    margin-left: 0%;
     border: 2px solid;
-
 }
 
-#home {
-    display: grid;
-    position: relative;
-    top: -5;
-    background-color: rgb(194, 194, 173);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px;
-    vertical-align: middle;
-    margin: 8px;
-    float: left;
+#tractor {
+    height: 250px;
+    width: 250px;
+    margin-top: 70px;
+    margin-left: 0%;
+    border: 2px solid;
 }
 
-#about {
-    display: grid;
-    position: relative;
-    top: -5;
-    background-color: rgb(194, 194, 173);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px;
+#home:hover {
+    background-color: rgb(148, 76, 76);
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid rgb(230, 121, 121);
     vertical-align: middle;
-    margin: 8px;
-    float: left;
 }
 
-#portfolio {
-    display: grid;
-    position: relative;
-    top: -5;
-    background-color: rgb(194, 194, 173);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px;
+#about:hover {
+    background-color: rgb(148, 76, 76);
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid rgb(230, 121, 121);
     vertical-align: middle;
-    margin: 8px;
-    float: left;
+}
+
+#portfolio:hover {
+    background-color: rgb(148, 76, 76);
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid rgb(230, 121, 121);
+    vertical-align: middle;
 }
 
 #p1 {
@@ -65,10 +55,8 @@ h2 {
     position: relative;
     margin: 250px;
     left: 400px;
-    /* text-align: center; */
     top: -480px;
     width: 500px;
-
 }
 
 #p2 {
@@ -80,7 +68,6 @@ h2 {
     position: relative;
     margin: 250px;
     left: 400px;
-    /* text-align: center; */
     top: -650px;
     width: 500px;
 }
@@ -93,39 +80,21 @@ h2 {
     position: relative;
     margin: 250px;
     left: -180px;
-    /* text-align: center; */
     top: -159px;
     width: 1500px;
 }
 
 #About_Me {
-    display: block;
     background-color: rgb(210, 186, 127);
     font-style: oblique font-weight: bold;
     font: size 20px;
     border: 2px solid;
     position: relative;
-    margin: 250px;
-    left: 150px;
-    /* text-align: center; */
-    top: -459px;
-    width: 800px;
+    margin: 20px;
+    left: 31%;
+    top: 120px;
+    width: 600px;
 }
-
-#tractor {
-    /* margin: 30px; */
-    height: 250px;
-    width: 250px;
-    margin-top: 70px;
-    margin-left: -163;
-
-}
-
-#TopAbout {
-    position: relative;
-    top: -338
-}
-
 
 #linkedin {
     position: relative;
@@ -141,4 +110,63 @@ h2 {
     width: 40px;
     top: 75px;
     left: -180px;
+}
+
+.form1 {
+    margin-top: -800px;
+}
+
+.Please {
+    margin-left: 1%;
+}
+
+#HEADER:hover {
+    background-color: rgb(187, 134, 134);
+    position: relative;
+    margin-right: 30%;
+    align-content: center;
+}
+
+#Top_About {
+    margin-left: 760px;
+    margin-top: -300px;
+
+}
+
+.square {
+    background-color: rgb(43, 122, 226);
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+}
+
+.circle {
+    background-color: rgb(43, 122, 226);
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+#container {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35%;
+    z-index: 1;
+}
+
+#big_square {
+    background-color: rgb(226, 165, 43);
+    height: 310px;
+    width: 310px;
+    margin-top: -19%;
+    margin-left: 41%;
+    z-index: 2;
+}
+
+@media(max-width:1024px) {
+    body {
+        background-color: rgb(174, 174, 154);
+    }
 }
